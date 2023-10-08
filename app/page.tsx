@@ -4,6 +4,7 @@ import coffee from "@/public/images/coffee.jpg";
 export default async function Home() {
   return (
     <main className="relative h-screen">
+      <h1 className="font-poppins">Hello World</h1>
       <Image
         src="https://bit.ly/react-cover"
         alt="coffee"
